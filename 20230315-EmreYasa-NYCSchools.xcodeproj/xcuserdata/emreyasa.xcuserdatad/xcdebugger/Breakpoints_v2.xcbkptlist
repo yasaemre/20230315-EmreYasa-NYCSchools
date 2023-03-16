@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "99BEABDE-675C-4372-AC52-A2215AE5E899"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "03781370-4E99-4AA8-8C6C-1CFD3364B8A3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "20230315-EmreYasa-NYCSchools/Network Manager/APICaller.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "searchedSchools(with:completed:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B05F0D2-80AB-4465-A112-4DC502DCB105"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "20230315-EmreYasa-NYCSchools/ViewController/SchoolVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "searchedSchools(search:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A428E83D-D5DE-44AB-B0B3-451782D8B53E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "20230315-EmreYasa-NYCSchools/Network Manager/APICaller.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "searchedSchools(with:completed:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A428E83D-D5DE-44AB-B0B3-451782D8B53E - 2141f85b528114df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_0230315_EmreYasa_NYCSchools.APICaller.searchedSchools(with: Swift.String, completed: (Swift.Result&lt;Swift.Array&lt;_0230315_EmreYasa_NYCSchools.Schools&gt;, _0230315_EmreYasa_NYCSchools.NYCSError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "20230315-EmreYasa-NYCSchools"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emreyasa/Dev/20230315-EmreYasa-NYCSchools/20230315-EmreYasa-NYCSchools/Network%20Manager/APICaller.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "1536">
+               </Location>
+               <Location
+                  uuid = "A428E83D-D5DE-44AB-B0B3-451782D8B53E - f29ecd70e38d8088"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in _0230315_EmreYasa_NYCSchools.APICaller.searchedSchools(with: Swift.String, completed: (Swift.Result&lt;Swift.Array&lt;_0230315_EmreYasa_NYCSchools.Schools&gt;, _0230315_EmreYasa_NYCSchools.NYCSError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "20230315-EmreYasa-NYCSchools"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emreyasa/Dev/20230315-EmreYasa-NYCSchools/20230315-EmreYasa-NYCSchools/Network%20Manager/APICaller.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "196">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

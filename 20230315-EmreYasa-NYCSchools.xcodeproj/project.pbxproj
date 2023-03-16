@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C69D544429C21834006E1F3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D544329C21834006E1F3F /* AppDelegate.swift */; };
+		C69D544629C21834006E1F3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D544529C21834006E1F3F /* SceneDelegate.swift */; };
+		C69D544B29C21834006E1F3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69D544929C21834006E1F3F /* Main.storyboard */; };
+		C69D544D29C21836006E1F3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C69D544C29C21836006E1F3F /* Assets.xcassets */; };
+		C69D545029C21836006E1F3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69D544E29C21836006E1F3F /* LaunchScreen.storyboard */; };
+		C69D545B29C21836006E1F3F /* _0230315_EmreYasa_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D545A29C21836006E1F3F /* _0230315_EmreYasa_NYCSchoolsTests.swift */; };
+		C69D546529C21836006E1F3F /* _0230315_EmreYasa_NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D546429C21836006E1F3F /* _0230315_EmreYasa_NYCSchoolsUITests.swift */; };
+		C69D546729C21836006E1F3F /* _0230315_EmreYasa_NYCSchoolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D546629C21836006E1F3F /* _0230315_EmreYasa_NYCSchoolsUITestsLaunchTests.swift */; };
+		C69D547B29C21B05006E1F3F /* NYCSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D547A29C21B05006E1F3F /* NYCSError.swift */; };
+		C69D547D29C21F6E006E1F3F /* Schools.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D547C29C21F6E006E1F3F /* Schools.swift */; };
+		C69D547F29C221C0006E1F3F /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D547E29C221C0006E1F3F /* APICaller.swift */; };
+		C69D548129C225D9006E1F3F /* SchoolDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D548029C225D9006E1F3F /* SchoolDetail.swift */; };
+		C69D548329C22880006E1F3F /* NYCSSchoolCellVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D548229C22880006E1F3F /* NYCSSchoolCellVM.swift */; };
+		C69D548529C22A16006E1F3F /* NYCSSchoolDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D548429C22A16006E1F3F /* NYCSSchoolDetailVM.swift */; };
+		C69D548729C22C16006E1F3F /* NYCSSchoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D548629C22C16006E1F3F /* NYCSSchoolTableViewCell.swift */; };
+		C69D548929C22E08006E1F3F /* NYCSSchoolDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D548829C22E08006E1F3F /* NYCSSchoolDetailView.swift */; };
+		C69D548B29C23B59006E1F3F /* SchoolVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D548A29C23B59006E1F3F /* SchoolVC.swift */; };
+		C69D548D29C23D96006E1F3F /* SchoolDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D548C29C23D96006E1F3F /* SchoolDetailVC.swift */; };
+		C69D548F29C28EC5006E1F3F /* NYCSAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D548E29C28EC5006E1F3F /* NYCSAlertView.swift */; };
+		C69D549129C29363006E1F3F /* NYCSActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69D549029C29363006E1F3F /* NYCSActivityIndicator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C69D545729C21836006E1F3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C69D543829C21834006E1F3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C69D543F29C21834006E1F3F;
+			remoteInfo = "20230315-EmreYasa-NYCSchools";
+		};
+		C69D546129C21836006E1F3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C69D543829C21834006E1F3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C69D543F29C21834006E1F3F;
+			remoteInfo = "20230315-EmreYasa-NYCSchools";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C69D544029C21834006E1F3F /* 20230315-EmreYasa-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20230315-EmreYasa-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C69D544329C21834006E1F3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C69D544529C21834006E1F3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C69D544A29C21834006E1F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C69D544C29C21836006E1F3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C69D544F29C21836006E1F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C69D545129C21836006E1F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C69D545629C21836006E1F3F /* 20230315-EmreYasa-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20230315-EmreYasa-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C69D545A29C21836006E1F3F /* _0230315_EmreYasa_NYCSchoolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0230315_EmreYasa_NYCSchoolsTests.swift; sourceTree = "<group>"; };
+		C69D546029C21836006E1F3F /* 20230315-EmreYasa-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20230315-EmreYasa-NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C69D546429C21836006E1F3F /* _0230315_EmreYasa_NYCSchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0230315_EmreYasa_NYCSchoolsUITests.swift; sourceTree = "<group>"; };
+		C69D546629C21836006E1F3F /* _0230315_EmreYasa_NYCSchoolsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0230315_EmreYasa_NYCSchoolsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C69D547A29C21B05006E1F3F /* NYCSError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSError.swift; sourceTree = "<group>"; };
+		C69D547C29C21F6E006E1F3F /* Schools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schools.swift; sourceTree = "<group>"; };
+		C69D547E29C221C0006E1F3F /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		C69D548029C225D9006E1F3F /* SchoolDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetail.swift; sourceTree = "<group>"; };
+		C69D548229C22880006E1F3F /* NYCSSchoolCellVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSSchoolCellVM.swift; sourceTree = "<group>"; };
+		C69D548429C22A16006E1F3F /* NYCSSchoolDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSSchoolDetailVM.swift; sourceTree = "<group>"; };
+		C69D548629C22C16006E1F3F /* NYCSSchoolTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSSchoolTableViewCell.swift; sourceTree = "<group>"; };
+		C69D548829C22E08006E1F3F /* NYCSSchoolDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSSchoolDetailView.swift; sourceTree = "<group>"; };
+		C69D548A29C23B59006E1F3F /* SchoolVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolVC.swift; sourceTree = "<group>"; };
+		C69D548C29C23D96006E1F3F /* SchoolDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailVC.swift; sourceTree = "<group>"; };
+		C69D548E29C28EC5006E1F3F /* NYCSAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSAlertView.swift; sourceTree = "<group>"; };
+		C69D549029C29363006E1F3F /* NYCSActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSActivityIndicator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C69D543D29C21834006E1F3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C69D545329C21836006E1F3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C69D545D29C21836006E1F3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C69D543729C21834006E1F3F = {
+			isa = PBXGroup;
+			children = (
+				C69D544229C21834006E1F3F /* 20230315-EmreYasa-NYCSchools */,
+				C69D545929C21836006E1F3F /* 20230315-EmreYasa-NYCSchoolsTests */,
+				C69D546329C21836006E1F3F /* 20230315-EmreYasa-NYCSchoolsUITests */,
+				C69D544129C21834006E1F3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C69D544129C21834006E1F3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C69D544029C21834006E1F3F /* 20230315-EmreYasa-NYCSchools.app */,
+				C69D545629C21836006E1F3F /* 20230315-EmreYasa-NYCSchoolsTests.xctest */,
+				C69D546029C21836006E1F3F /* 20230315-EmreYasa-NYCSchoolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C69D544229C21834006E1F3F /* 20230315-EmreYasa-NYCSchools */ = {
+			isa = PBXGroup;
+			children = (
+				C69D547929C218E0006E1F3F /* Network Manager */,
+				C69D547829C218CB006E1F3F /* ViewController */,
+				C69D547729C218C3006E1F3F /* View */,
+				C69D547629C218AB006E1F3F /* ViewModel */,
+				C69D547529C2188F006E1F3F /* Model */,
+				C69D547429C2187F006E1F3F /* Supporting Files */,
+				C69D547329C2186C006E1F3F /* Utilities */,
+				C69D544C29C21836006E1F3F /* Assets.xcassets */,
+				C69D544E29C21836006E1F3F /* LaunchScreen.storyboard */,
+				C69D545129C21836006E1F3F /* Info.plist */,
+			);
+			path = "20230315-EmreYasa-NYCSchools";
+			sourceTree = "<group>";
+		};
+		C69D545929C21836006E1F3F /* 20230315-EmreYasa-NYCSchoolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C69D545A29C21836006E1F3F /* _0230315_EmreYasa_NYCSchoolsTests.swift */,
+			);
+			path = "20230315-EmreYasa-NYCSchoolsTests";
+			sourceTree = "<group>";
+		};
+		C69D546329C21836006E1F3F /* 20230315-EmreYasa-NYCSchoolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C69D546429C21836006E1F3F /* _0230315_EmreYasa_NYCSchoolsUITests.swift */,
+				C69D546629C21836006E1F3F /* _0230315_EmreYasa_NYCSchoolsUITestsLaunchTests.swift */,
+			);
+			path = "20230315-EmreYasa-NYCSchoolsUITests";
+			sourceTree = "<group>";
+		};
+		C69D547329C2186C006E1F3F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C69D547A29C21B05006E1F3F /* NYCSError.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C69D547429C2187F006E1F3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C69D544329C21834006E1F3F /* AppDelegate.swift */,
+				C69D544529C21834006E1F3F /* SceneDelegate.swift */,
+				C69D544929C21834006E1F3F /* Main.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C69D547529C2188F006E1F3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C69D547C29C21F6E006E1F3F /* Schools.swift */,
+				C69D548029C225D9006E1F3F /* SchoolDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C69D547629C218AB006E1F3F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C69D548229C22880006E1F3F /* NYCSSchoolCellVM.swift */,
+				C69D548429C22A16006E1F3F /* NYCSSchoolDetailVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C69D547729C218C3006E1F3F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C69D548629C22C16006E1F3F /* NYCSSchoolTableViewCell.swift */,
+				C69D548829C22E08006E1F3F /* NYCSSchoolDetailView.swift */,
+				C69D548E29C28EC5006E1F3F /* NYCSAlertView.swift */,
+				C69D549029C29363006E1F3F /* NYCSActivityIndicator.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C69D547829C218CB006E1F3F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C69D548A29C23B59006E1F3F /* SchoolVC.swift */,
+				C69D548C29C23D96006E1F3F /* SchoolDetailVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C69D547929C218E0006E1F3F /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C69D547E29C221C0006E1F3F /* APICaller.swift */,
+			);
+			path = "Network Manager";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C69D543F29C21834006E1F3F /* 20230315-EmreYasa-NYCSchools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C69D546A29C21836006E1F3F /* Build configuration list for PBXNativeTarget "20230315-EmreYasa-NYCSchools" */;
+			buildPhases = (
+				C69D543C29C21834006E1F3F /* Sources */,
+				C69D543D29C21834006E1F3F /* Frameworks */,
+				C69D543E29C21834006E1F3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20230315-EmreYasa-NYCSchools";
+			productName = "20230315-EmreYasa-NYCSchools";
+			productReference = C69D544029C21834006E1F3F /* 20230315-EmreYasa-NYCSchools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C69D545529C21836006E1F3F /* 20230315-EmreYasa-NYCSchoolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C69D546D29C21836006E1F3F /* Build configuration list for PBXNativeTarget "20230315-EmreYasa-NYCSchoolsTests" */;
+			buildPhases = (
+				C69D545229C21836006E1F3F /* Sources */,
+				C69D545329C21836006E1F3F /* Frameworks */,
+				C69D545429C21836006E1F3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C69D545829C21836006E1F3F /* PBXTargetDependency */,
+			);
+			name = "20230315-EmreYasa-NYCSchoolsTests";
+			productName = "20230315-EmreYasa-NYCSchoolsTests";
+			productReference = C69D545629C21836006E1F3F /* 20230315-EmreYasa-NYCSchoolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C69D545F29C21836006E1F3F /* 20230315-EmreYasa-NYCSchoolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C69D547029C21836006E1F3F /* Build configuration list for PBXNativeTarget "20230315-EmreYasa-NYCSchoolsUITests" */;
+			buildPhases = (
+				C69D545C29C21836006E1F3F /* Sources */,
+				C69D545D29C21836006E1F3F /* Frameworks */,
+				C69D545E29C21836006E1F3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C69D546229C21836006E1F3F /* PBXTargetDependency */,
+			);
+			name = "20230315-EmreYasa-NYCSchoolsUITests";
+			productName = "20230315-EmreYasa-NYCSchoolsUITests";
+			productReference = C69D546029C21836006E1F3F /* 20230315-EmreYasa-NYCSchoolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C69D543829C21834006E1F3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C69D543F29C21834006E1F3F = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					C69D545529C21836006E1F3F = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = C69D543F29C21834006E1F3F;
+					};
+					C69D545F29C21836006E1F3F = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = C69D543F29C21834006E1F3F;
+					};
+				};
+			};
+			buildConfigurationList = C69D543B29C21834006E1F3F /* Build configuration list for PBXProject "20230315-EmreYasa-NYCSchools" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C69D543729C21834006E1F3F;
+			productRefGroup = C69D544129C21834006E1F3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C69D543F29C21834006E1F3F /* 20230315-EmreYasa-NYCSchools */,
+				C69D545529C21836006E1F3F /* 20230315-EmreYasa-NYCSchoolsTests */,
+				C69D545F29C21836006E1F3F /* 20230315-EmreYasa-NYCSchoolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C69D543E29C21834006E1F3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C69D545029C21836006E1F3F /* LaunchScreen.storyboard in Resources */,
+				C69D544D29C21836006E1F3F /* Assets.xcassets in Resources */,
+				C69D544B29C21834006E1F3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C69D545429C21836006E1F3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C69D545E29C21836006E1F3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C69D543C29C21834006E1F3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C69D548729C22C16006E1F3F /* NYCSSchoolTableViewCell.swift in Sources */,
+				C69D549129C29363006E1F3F /* NYCSActivityIndicator.swift in Sources */,
+				C69D547B29C21B05006E1F3F /* NYCSError.swift in Sources */,
+				C69D548929C22E08006E1F3F /* NYCSSchoolDetailView.swift in Sources */,
+				C69D548529C22A16006E1F3F /* NYCSSchoolDetailVM.swift in Sources */,
+				C69D548B29C23B59006E1F3F /* SchoolVC.swift in Sources */,
+				C69D548F29C28EC5006E1F3F /* NYCSAlertView.swift in Sources */,
+				C69D544429C21834006E1F3F /* AppDelegate.swift in Sources */,
+				C69D548129C225D9006E1F3F /* SchoolDetail.swift in Sources */,
+				C69D544629C21834006E1F3F /* SceneDelegate.swift in Sources */,
+				C69D547F29C221C0006E1F3F /* APICaller.swift in Sources */,
+				C69D548329C22880006E1F3F /* NYCSSchoolCellVM.swift in Sources */,
+				C69D547D29C21F6E006E1F3F /* Schools.swift in Sources */,
+				C69D548D29C23D96006E1F3F /* SchoolDetailVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C69D545229C21836006E1F3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C69D545B29C21836006E1F3F /* _0230315_EmreYasa_NYCSchoolsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C69D545C29C21836006E1F3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C69D546529C21836006E1F3F /* _0230315_EmreYasa_NYCSchoolsUITests.swift in Sources */,
+				C69D546729C21836006E1F3F /* _0230315_EmreYasa_NYCSchoolsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C69D545829C21836006E1F3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C69D543F29C21834006E1F3F /* 20230315-EmreYasa-NYCSchools */;
+			targetProxy = C69D545729C21836006E1F3F /* PBXContainerItemProxy */;
+		};
+		C69D546229C21836006E1F3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C69D543F29C21834006E1F3F /* 20230315-EmreYasa-NYCSchools */;
+			targetProxy = C69D546129C21836006E1F3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C69D544929C21834006E1F3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C69D544A29C21834006E1F3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C69D544E29C21836006E1F3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C69D544F29C21836006E1F3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C69D546829C21836006E1F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C69D546929C21836006E1F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C69D546B29C21836006E1F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DG8S4P5ZL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "20230315-EmreYasa-NYCSchools/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EmreYasa.-0230315-EmreYasa-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C69D546C29C21836006E1F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DG8S4P5ZL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "20230315-EmreYasa-NYCSchools/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EmreYasa.-0230315-EmreYasa-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C69D546E29C21836006E1F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DG8S4P5ZL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EmreYasa.-0230315-EmreYasa-NYCSchoolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20230315-EmreYasa-NYCSchools.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/20230315-EmreYasa-NYCSchools";
+			};
+			name = Debug;
+		};
+		C69D546F29C21836006E1F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DG8S4P5ZL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EmreYasa.-0230315-EmreYasa-NYCSchoolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20230315-EmreYasa-NYCSchools.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/20230315-EmreYasa-NYCSchools";
+			};
+			name = Release;
+		};
+		C69D547129C21836006E1F3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DG8S4P5ZL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EmreYasa.-0230315-EmreYasa-NYCSchoolsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "20230315-EmreYasa-NYCSchools";
+			};
+			name = Debug;
+		};
+		C69D547229C21836006E1F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DG8S4P5ZL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EmreYasa.-0230315-EmreYasa-NYCSchoolsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "20230315-EmreYasa-NYCSchools";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C69D543B29C21834006E1F3F /* Build configuration list for PBXProject "20230315-EmreYasa-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C69D546829C21836006E1F3F /* Debug */,
+				C69D546929C21836006E1F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C69D546A29C21836006E1F3F /* Build configuration list for PBXNativeTarget "20230315-EmreYasa-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C69D546B29C21836006E1F3F /* Debug */,
+				C69D546C29C21836006E1F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C69D546D29C21836006E1F3F /* Build configuration list for PBXNativeTarget "20230315-EmreYasa-NYCSchoolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C69D546E29C21836006E1F3F /* Debug */,
+				C69D546F29C21836006E1F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C69D547029C21836006E1F3F /* Build configuration list for PBXNativeTarget "20230315-EmreYasa-NYCSchoolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C69D547129C21836006E1F3F /* Debug */,
+				C69D547229C21836006E1F3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C69D543829C21834006E1F3F /* Project object */;
+}
